@@ -43,7 +43,7 @@
     position:relative;
 }
 .remove-alert-btn{
-   color:rgba(0, 0, 0);
+   color:var(--dark-color);
    opacity: 0.52;
    position: absolute; 
    background: none;

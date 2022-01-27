@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+
+.hero-font{
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.font1{
+    font-size: 2.5rem;
+}
+.font2{
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.font3{
+    font-size: 1.2rem;
+}

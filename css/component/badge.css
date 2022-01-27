@@ -4,11 +4,11 @@
 .status-circle{
     position: absolute;
     border-radius: 50%;
-    border:2px solid white;
+    border:2px solid var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    color:white;
+    color:var(--bg-color);
 }
 .md-circle{
     width:1.8rem;

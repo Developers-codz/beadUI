@@ -7,14 +7,14 @@
     width:10rem;
     height:10rem;
  }
- .img-round{
+ .border-round{
     border-radius: 50%;
  }
- .img-square{
+ .border-square{
     border-radius: 10px;
  }
  .img-border{
-    border:3px solid #ffeeba;
+    border:3px solid var(--primary-color);
  }
  
 .md-img{

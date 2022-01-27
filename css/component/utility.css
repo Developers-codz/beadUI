@@ -1,8 +1,31 @@
+.margin-sm{
+    margin:.5rem 1.5rem;
+}
 .margin-md{
     margin:1rem 3rem;
 }
+.mb-lg{
+    margin-bottom: 1rem;
+}
+.ml-auto{
+    margin-left:auto;
+}
 .padding-sm{
-    padding:1rem;
+    padding:.5rem 1.5rem;
+}
+.padding-xs{
+    padding:.5rem 1rem;
+}
+.margin-none{
+    margin:0rem;
+}
+.centered{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.vertical-direction{
+    flex-direction: column;
 }
 .btn{
     cursor: pointer;
@@ -18,4 +41,25 @@
 }
 .text-lightpink{
     color:#f5c6cb;
+}
+.text-primary{
+    color:var(--primary-color)
+}
+.text-secondary{
+    color:var(--secondary-text-color)
+}
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.style-list-none{
+    list-style: none;
+}
+.inline-block{
+    display: inline-block;
+}
+.hero-btn{
+    border:none;
+}
+.pointer{
+    cursor:pointer;
 }

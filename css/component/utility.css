@@ -1,0 +1,21 @@
+.margin-md{
+    margin:1rem 3rem;
+}
+.padding-sm{
+    padding:1rem;
+}
+.btn{
+    cursor: pointer;
+}
+.bg-success{
+    background-color: green;
+}
+.bg-danger{
+    background-color: red;
+}
+.bg-warning{
+    background-color: yellow;
+}
+.text-lightpink{
+    color:#f5c6cb;
+}

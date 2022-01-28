@@ -10,6 +10,7 @@
 :root{
      --primary-color:#FCB08C;
     --secondary-color:rgb(213, 234, 236);
+    --bg-color:white;
     --bg-primary:rgb(250, 241, 241);
     --bg-secondary-color:#f7f7f7;
     --text-color:#000;

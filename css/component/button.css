@@ -1,0 +1,22 @@
+.btn{
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn-outline{
+    border:1px solid var(--primary-color);
+    background: transparent;
+    color:var(--primary-color)
+}
+.rm-border{
+    border:none;
+}
+.hover-primary:hover{
+    color:var(--primary-color);
+}
+.hover-secondary:hover{
+    background: var(--primary-color);
+    color:var(--bg-color)
+}
+.btn-transparent{
+    background: none;
+}

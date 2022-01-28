@@ -1,0 +1,31 @@
+ .avatar{
+    border-radius:50%;
+    display:inline-block;
+ }
+
+ .lg-img{
+    width:10rem;
+    height:10rem;
+ }
+ .border-round{
+    border-radius: 50%;
+ }
+ .border-square{
+    border-radius: 10px;
+ }
+ .img-border{
+    border:3px solid var(--primary-color);
+ }
+ 
+.md-img{
+    width:8rem;
+    height:8rem;
+}
+.sm-img{
+    width:6rem;
+    height:6rem;
+}
+.xs-img{
+    width:3rem;
+    height:3rem;
+}

@@ -1,0 +1,18 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+@media only screen and(max-width:500px){
+    
+}
+:root{
+     --primary-color:#FCB08C;
+    --secondary-color:rgb(213, 234, 236);
+    --bg-primary:rgb(250, 241, 241);
+    --bg-secondary-color:#f7f7f7;
+    --text-color:#000;
+    --secondary-text-color:#495057;
+  
+}

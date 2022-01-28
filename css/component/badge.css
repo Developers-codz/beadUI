@@ -1,0 +1,37 @@
+.avatar-badge{
+    position: relative;
+}
+.status-circle{
+    position: absolute;
+    border-radius: 50%;
+    border:2px solid var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--bg-color);
+}
+.md-circle{
+    width:1.8rem;
+    height:1.8rem;
+    top:6.5rem;
+    left:6.8rem;
+}
+.sm-circle{
+    width:1.5rem;
+    height:1.5rem;
+    top:5rem;
+    left:5.3rem;
+}
+.xs-circle{
+    top:3.2rem;
+    left:3rem;
+    width:.75rem;
+    height:.75rem;
+}
+.icon-top-badge{
+    width:1.8rem;
+    height:1.8rem;
+    top:-1rem;
+    left:1.50rem;
+
+}

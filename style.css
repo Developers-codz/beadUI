@@ -1,0 +1,76 @@
+@import url("./css/main.css");
+.navbar{
+    min-height: 5vh;
+    background-color: var(--bg-color);
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+footer{
+    min-height:25vh;
+    background-color: var(--secondary-color);
+    color:var(--dark-color);
+    opacity: .8;
+}
+main{
+    min-height: 80vh;
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: (2,1fr);
+    grid-template-areas: 
+    "section1 section1"
+    "section1 section1"
+    "installation carbon"
+    "installation carbon";
+}
+.section1{
+    grid-area: section1;
+}
+.left-main-col{
+    grid-area: installation;
+}
+.right-main-col{
+    grid-area: carbon;   
+}
+
+
+
+@media only screen and (max-width: 768px){
+    main{
+        min-height: 60vh;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: (2,1fr);
+        grid-template-areas: 
+        "section1 section1"
+        "section1 section1"
+        "installation installation"
+        "installation installation"
+        "carbon carbon"
+        "carbon carbon";
+    }
+    .section1{
+        grid-area: section1;
+      
+    }
+    .left-main-col{
+        grid-area: installation;
+      }
+    .right-main-col{
+        grid-area: carbon;
+      
+        
+    }
+}
+
+
+.mid-col>span:hover{
+    color:var(--primary-color);
+}
+
+
+
+
+  

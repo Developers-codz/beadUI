@@ -1,26 +1,12 @@
 @import url("./css/main.css");
 .navbar{
-    min-height: 10vh;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr ;
+    min-height: 5vh;
     background-color: var(--bg-color);
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
 }
 
-/* navbar */
-
-.mid-col>span:hover{
-    color:var(--primary-color)
-
-}
-
-main{
-    min-height:50vh;
-    background-color: var(--bg-color);
-}
-.section1{
-    min-height: 50vh;
-}
 
 footer{
     min-height:25vh;
@@ -28,43 +14,61 @@ footer{
     color:var(--dark-color);
     opacity: .8;
 }
-.grid-section-col-2{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "installation carbon";
-   
+main{
+    min-height: 80vh;
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: (2,1fr);
+    grid-template-areas: 
+    "section1 section1"
+    "section1 section1"
+    "installation carbon"
+    "installation carbon";
+}
+.section1{
+    grid-area: section1;
 }
 .left-main-col{
-   grid-area: installation;
+    grid-area: installation;
 }
 .right-main-col{
-    grid-area: carbon;
+    grid-area: carbon;   
 }
-@media only screen and(max-width:1580px){
-  
-   
-}
-@media only screen and(max-width:768px){
-  
-    .grid-section-col-2{
-        grid-template-columns: 1fr;
-        grid-template-areas: "installation" 
-        "carbon";
-       
+
+
+
+@media only screen and (max-width: 768px){
+    main{
+        min-height: 60vh;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: (2,1fr);
+        grid-template-areas: 
+        "section1 section1"
+        "section1 section1"
+        "installation installation"
+        "installation installation"
+        "carbon carbon"
+        "carbon carbon";
+    }
+    .section1{
+        grid-area: section1;
+      
     }
     .left-main-col{
-       grid-area: installation;
-    }
+        grid-area: installation;
+      }
     .right-main-col{
         grid-area: carbon;
+      
+        
     }
-    
-    
-   
-   
 }
 
 
+.mid-col>span:hover{
+    color:var(--primary-color);
+}
 
 
 

@@ -23,6 +23,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .vertical-direction{
     flex-direction: column;
@@ -62,4 +63,7 @@
 }
 .pointer{
     cursor:pointer;
+}
+.shadow-box{
+    box-shadow: 0px 2px 5px 0px var(--secondary-text-color);
 }

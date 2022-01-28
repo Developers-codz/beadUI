@@ -10,7 +10,6 @@
 
 footer{
     min-height:25vh;
-    background-color: var(--secondary-color);
     color:var(--dark-color);
     opacity: .8;
 }

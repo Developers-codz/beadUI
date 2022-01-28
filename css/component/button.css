@@ -1,5 +1,7 @@
 .btn{
     border-radius: 10px;
+}
+.reset{
     cursor:pointer;
 }
 .btn-outline{
@@ -15,8 +17,11 @@
 }
 .hover-secondary:hover{
     background: var(--primary-color);
-    color:var(--bg-color)
+    color:var(--text-light)
 }
 .btn-transparent{
     background: none;
+}
+.float{
+    z-index:999
 }

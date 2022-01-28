@@ -4,17 +4,29 @@
 .margin-md{
     margin:1rem 3rem;
 }
+.margin-lg{
+    margin:1.5rem 5rem;
+}
 .mb-lg{
     margin-bottom: 1rem;
 }
 .ml-auto{
     margin-left:auto;
 }
+.mr-auto{
+    margin-right:auto;
+}
 .padding-sm{
     padding:.5rem 1.5rem;
 }
 .padding-xs{
     padding:.5rem 1rem;
+}
+.evenly-padding-sm{
+    padding:1rem;
+}
+.evenly-padding-md{
+    padding:1.5rem;
 }
 .margin-none{
     margin:0rem;
@@ -35,8 +47,20 @@
 .text-secondary{
     color:var(--secondary-text-color)
 }
+.light-text{
+    color:var(--text-light)
+}
+.text-vibrant{
+    color: var(--vibrant);
+}
 .bg-primary{
     background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--bg-secondary);
+}
+.bg-vibrant{
+    background-color: var(--vibrant);
 }
 .style-list-none{
     list-style: none;

@@ -49,7 +49,7 @@ aside>h1::after{
     display: inline-block;
     
 }
-aside > ul > li > a:hover{
+.aside-link:hover{
    color:var(--primary-color);
    cursor: pointer;
    

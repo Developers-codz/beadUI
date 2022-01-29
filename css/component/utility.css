@@ -74,3 +74,15 @@
 .shadow-box{
     box-shadow: 0px 2px 5px 0px var(--secondary-text-color);
 }
+.shadow-text{
+    text-shadow: -3px 0px 1px rgba(0, 0, 7, 0.76);
+}
+.iframe-wrapper{
+    text-align: center;
+}
+.width-md{
+    width:30rem;
+}
+.decor-none{
+    text-decoration: none;
+}

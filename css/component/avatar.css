@@ -4,28 +4,27 @@
  }
 
  .lg-img{
-    width:10rem;
-    height:10rem;
- }
- .border-round{
-    border-radius: 50%;
- }
- .border-square{
-    border-radius: 10px;
- }
- .img-border{
-    border:3px solid var(--primary-color);
- }
- 
-.md-img{
     width:8rem;
     height:8rem;
+ }
+.md-img{
+    width:6.5rem;
+    height:6.5rem;
 }
 .sm-img{
-    width:6rem;
-    height:6rem;
+    width:5rem;
+    height:5rem;
 }
 .xs-img{
     width:3rem;
     height:3rem;
+}
+.border-round{
+   border-radius: 50%;
+}
+.border-square{
+   border-radius: 10px;
+}
+.img-border{
+   border:3px solid var(--primary-color);
 }

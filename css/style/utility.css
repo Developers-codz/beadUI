@@ -63,7 +63,7 @@
     background-color: var(--primary-color);
 }
 .bg-secondary{
-    background-color: var(--bg-secondary);
+    background-color: var(--secondary-color);
 }
 .bg-vibrant{
     background-color: var(--vibrant);

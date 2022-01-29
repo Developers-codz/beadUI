@@ -4,11 +4,12 @@
 .status-circle{
     position: absolute;
     border-radius: 50%;
-    border:2px solid var(--bg-color);
+    border:2px solid var(--text-light);
     display: flex;
     justify-content: center;
     align-items: center;
-    color:var(--bg-color);
+    background-color:var(--vibrant);
+    color:var(--text-light);
 }
 .md-circle{
     width:1.8rem;
@@ -23,8 +24,8 @@
     left:5.3rem;
 }
 .xs-circle{
-    top:3.2rem;
-    left:3rem;
+    top:2.3rem;
+    left:4rem;
     width:.75rem;
     height:.75rem;
 }

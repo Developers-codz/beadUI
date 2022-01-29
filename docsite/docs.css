@@ -1,0 +1,143 @@
+@import url("../css/main.css");
+
+body{
+    display:grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 100px auto 100px;
+    grid-gap:50px;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer"
+    ;
+}
+header{
+        grid-area: header;
+}
+.navbar{
+    background-color: var(--bg-color);
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.last-col > ul > li{
+    padding:0rem .6rem;
+}
+aside{
+    max-height:75vh;
+    position:sticky;
+    top:0;
+    color:var(--vibrant);
+    grid-area: aside;
+    text-align: center;
+    border-right: 2px solid var(--vibrant);
+}
+
+aside > h1{
+    position:relative;
+    font-weight:bolder;
+    font-size: 1.7rem;
+}
+aside>h1::after{
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid;
+    right:25px;
+    left: 25px;
+    width: 80%; 
+    bottom: 5px;
+    display: inline-block;
+    
+}
+aside > ul > li > a {
+    
+
+}
+aside > ul > li > a:hover{
+   color:var(--primary-color);
+   cursor: pointer;
+   
+}
+.active{
+    color:var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-shadow: 1px 0px 1px rgba(0, 0, 7, 0.76);
+ 
+}
+main{
+    grid-area: main;
+}
+.content-wrapper{
+    /* margin:1rem 5rem; */
+}
+footer{
+    position:relative;
+    grid-area: footer;
+    min-height:25vh;
+    color:var(--dark-color);
+    z-index: 99;
+    /* opacity: 0.8; */
+}
+iframe{
+    width: 550px; 
+    height: 180px; 
+    border:0; 
+    transform: scale(1); 
+    overflow-x:hidden;
+    margin-top:5rem;
+}
+.section{
+    margin:0 0 3rem 0;
+    
+}
+.prev-page-btn{
+    position: absolute;
+    left:17rem;
+    bottom:11rem;
+}
+
+.next-page-btn{
+    position: absolute;
+    right:20px;
+    bottom:11rem;
+}
+@media only screen and (max-width:768px){
+   
+    body{
+        grid-gap:30px;
+        grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer"
+    ;
+    }
+    main{
+        grid-area: main;
+        padding:1rem
+    }
+    .content-wrapper{
+        padding:0rem;
+    }
+    .last-col{
+        margin-left: none;
+        padding:0rem .1rem;
+    
+    }
+    aside{
+        display:none
+    }
+    iframe{
+        width:300px;
+    }
+    .prev-page-btn{
+        left:0;
+        bottom:9rem;
+    }
+    
+    .next-page-btn{
+        right:0;
+        bottom:9rem;
+    }
+    
+}

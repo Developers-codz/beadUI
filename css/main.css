@@ -2,8 +2,8 @@
 @import url("./typography.css");
 
 
-@import url("./component/avatar.css");
-@import url("./component/alert.css");
-@import url("./component/badge.css");
-@import url("./component/button.css");
-@import url("./component/utility.css");
+@import url("./style/avatar.css");
+@import url("./style/alert.css");
+@import url("./style/badge.css");
+@import url("./style/button.css");
+@import url("./style/utility.css");

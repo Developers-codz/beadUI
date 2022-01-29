@@ -49,10 +49,6 @@ aside>h1::after{
     display: inline-block;
     
 }
-aside > ul > li > a {
-    
-
-}
 aside > ul > li > a:hover{
    color:var(--primary-color);
    cursor: pointer;
@@ -68,9 +64,7 @@ aside > ul > li > a:hover{
 main{
     grid-area: main;
 }
-.content-wrapper{
-    /* margin:1rem 5rem; */
-}
+
 footer{
     position:relative;
     grid-area: footer;
@@ -132,12 +126,12 @@ iframe{
     }
     .prev-page-btn{
         left:0;
-        bottom:9rem;
+        bottom:11rem;
     }
     
     .next-page-btn{
         right:0;
-        bottom:9rem;
+        bottom:11rem;
     }
     
 }

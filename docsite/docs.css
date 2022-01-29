@@ -50,8 +50,7 @@ aside>h1::after{
     
 }
 aside > ul > li > a {
-    color:var(--vibrant);
-    text-decoration: none;
+    
 
 }
 aside > ul > li > a:hover{

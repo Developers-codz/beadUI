@@ -86,3 +86,7 @@
 .decor-none{
     text-decoration: none;
 }
+.vibrant-link{
+    color:var(--vibrant);
+    text-decoration: none;
+}

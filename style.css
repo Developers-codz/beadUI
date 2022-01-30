@@ -24,6 +24,9 @@ main{
 .main-section{
         grid-area: section1;
 }
+.about{
+    max-width:50rem;
+}
 
 footer{
     min-height:25vh;

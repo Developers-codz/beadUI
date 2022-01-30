@@ -10,11 +10,13 @@ html{
 }
 :root{
      --primary-color:#FCB08C;
-    --secondary-color:#f7f7f7;
+    --secondary-color:#260827;
     --vibrant:rgb(128, 0, 128);
     --bg-secondary: rgb(213, 234, 236);
     --text-color:#000;
     --text-light:white;
     --secondary-text-color:#495057;
+    --green:rgb(3, 117, 3);
+    --red:rgb(236, 5, 5);
   
 }

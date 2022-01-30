@@ -49,11 +49,7 @@ aside>h1::after{
     display: inline-block;
     
 }
-aside > ul > li > a {
-    
-
-}
-aside > ul > li > a:hover{
+.aside-link:hover{
    color:var(--primary-color);
    cursor: pointer;
    
@@ -68,20 +64,18 @@ aside > ul > li > a:hover{
 main{
     grid-area: main;
 }
-.content-wrapper{
-    /* margin:1rem 5rem; */
-}
+
 footer{
     position:relative;
     grid-area: footer;
     min-height:25vh;
-    color:var(--dark-color);
+    color:var(--text-light);
     z-index: 99;
     /* opacity: 0.8; */
 }
 iframe{
-    width: 550px; 
-    height: 180px; 
+    width: 650px; 
+    height: 200px; 
     border:0; 
     transform: scale(1); 
     overflow-x:hidden;
@@ -132,12 +126,12 @@ iframe{
     }
     .prev-page-btn{
         left:0;
-        bottom:9rem;
+        bottom:11rem;
     }
     
     .next-page-btn{
         right:0;
-        bottom:9rem;
+        bottom:11rem;
     }
     
 }

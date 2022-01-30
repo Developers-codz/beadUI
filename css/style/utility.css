@@ -16,11 +16,11 @@
 .mr-auto{
     margin-right:auto;
 }
-.padding-sm{
-    padding:.5rem 1.5rem;
-}
 .padding-xs{
     padding:.5rem 1rem;
+}
+.padding-sm{
+    padding:.5rem 1.5rem;
 }
 .evenly-padding-sm{
     padding:1rem;
@@ -53,11 +53,17 @@
 .text-vibrant{
     color: var(--vibrant);
 }
+.bg-red{
+    background-color:var(--red);
+}
+.bg-green{
+    background-color: var(--green);
+}
 .bg-primary{
     background-color: var(--primary-color);
 }
 .bg-secondary{
-    background-color: var(--bg-secondary);
+    background-color: var(--secondary-color);
 }
 .bg-vibrant{
     background-color: var(--vibrant);

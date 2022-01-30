@@ -31,7 +31,6 @@ main{
 footer{
     min-height:25vh;
     color:var(--text-light);
-    opacity: 0.8;
 }
     
     

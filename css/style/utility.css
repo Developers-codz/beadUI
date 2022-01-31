@@ -34,6 +34,9 @@
 .evenly-padding-md{
     padding:1.5rem;
 }
+.padding-y{
+    padding:2rem 0;
+}
 .margin-none{
     margin:0rem;
 }

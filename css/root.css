@@ -7,6 +7,7 @@
 }
 html{
     scroll-behavior: smooth;
+    font-family: 'Source Serif 4', sans-serif;;
 }
 :root{
      --primary-color:#FCB08C;

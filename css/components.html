@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 <body>
@@ -90,8 +90,136 @@
         <button class="reset rm-border bg-primary border-round light-text float margin-md">
             <i class="fa fa-arrow-up evenly-padding-sm font3"></i>
         </button>
+
         <button class="reset btn-transparent rm-border"><i class="fas fa-3x fa-cart-plus text-vibrant"> </i>
         </button>
+        <!-- cards -->
+        <h1 class="padding-sm ">Cards</h1>
+        <!-- cards with badge-->
+        <div class="card simple-card mb-lg margin-md reset">
+            <img src="../assets/item1.jpg" alt="" class="card-img">
+            <div class="card-textarea">
+                <div class="left-pane evenly-padding-sm">
+                    <h2 class="card-heading ">Wind Chyme</h2>
+                    <p class="text-secondary">Exclusively from Gujrat </p>
+                    <div class="stars">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="text-primary font3">₹499 only</p>
+                </div>
+                <i class="far fa-heart fa-lg evenly-padding-sm card-icon border-round"></i>
+
+            </div>
+        </div>
+  <!-- card with dismiss -->
+        <div class="card simple-card mb-lg  margin-md reset card-dismiss">
+            <img src="../assets/item2.jpg" alt="" class="card-img">
+            <button class="btn rm-border btn-transparent font2 dismiss-card-btn reset">X</button>
+            <div class="card-textarea">
+                <div class="left-pane evenly-padding-sm">
+                    <h2 class="card-heading ">Basket</h2>
+                    <p class="text-secondary">Environment friendly basket</p>
+                    <div class="stars">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="text-primary font3">₹199 only</p>
+                </div>
+               
+                    <i class="far fa-heart fa-lg  card-icon evenly-padding-sm"></i>
+             </div>
+        </div>
+        <!-- overlay card -->
+        <div class="card mb-lg overlay-card margin-md reset">
+            <img src="../assets/item2.jpg" alt="" class="card-img-overlay">
+            <div class="overlay-card-content text-vibrant">
+                <h1 class="font2 card-heading">Baskets</h1>
+                <p >Environment friendly basket</p>
+                <div class="stars">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                    <p class=" font3">₹199 only</p>
+            </div>
+            <div class="bottom-overlayed-icon">
+                <i class="far fa-heart fa-lg card-icon "></i>
+            </div>
+            <div class="top-overlayed-icon">
+                <i class="fas fa-lg fa-cart-plus cart card-icon"> </i>
+            </div>
+          
+        </div>
+        <!-- card with shadow -->
+        <div class="card simple-card mb-lg  margin-md reset shadow-box">
+            <img src="../assets/item3.jfif" alt="" class="card-img">
+            <div class="card-textarea">
+                <div class="left-pane evenly-padding-sm">
+                    <h2 class="card-heading ">Marble Flower Pot</h2>
+                    <p class="text-secondary">Exclusively from Jaipur </p>
+                    <div class="stars">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="text-primary font3">₹359 only</p>
+                </div>
+                <i class="far fa-heart fa-lg evenly-padding-sm card-icon border-round"></i>
+                
+            </div>
+        </div>
+        <!-- text only card -->
+        <div class="card text-only-card mb-lg  margin-md reset">
+            
+            <div class="card-textarea">
+                <div class="left-pane evenly-padding-sm">
+                    <h2 class="card-heading">Exclusive Handworks</h2>
+                    <p class="text-secondary mb-lg">Unique artworks from North India</p>
+                    <button class="reset btn btn-outline  padding-xs font3 hover-secondary">Go</button>
+                </div>
+                <i class="far fa-heart fa-lg evenly-padding-sm card-icon border-round"></i>
+
+            </div>
+        </div>
+        <!-- horizontal card -->
+         
+         <div class="card horizontal-card mb-lg  margin-md reset ">
+            
+             <div class="card-textarea">
+            <img src="../assets/item3.jfif" alt="" class="horizontal-card-img">
+                <div class=" evenly-padding-sm">
+                    <h2 class="card-heading ">Marble Flower Pot</h2>
+                    <p class="text-secondary">Exclusively from Jaipur </p>
+                    <div class="stars">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="text-primary font3">₹359 only</p>
+                </div>
+                
+            </div>
+            
+            <div class="card-textarea">
+                <button class="reset btn btn-outline  padding-xs margin-sm font3 hover-secondary">View</button>
+                <i class="far fa-heart fa-lg evenly-padding-sm card-icon"></i>
+            </div>
+                
+            
+        </div>
 
     </div>
     <script src="component.js"></script>

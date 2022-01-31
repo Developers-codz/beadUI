@@ -30,7 +30,8 @@ aside{
     color:var(--vibrant);
     grid-area: aside;
     text-align: center;
-    border-right: 2px solid var(--vibrant);
+    /* border-right: 2px solid var(--vibrant); */
+    overflow-y: auto;
 }
 
 aside > h1{

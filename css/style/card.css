@@ -88,4 +88,5 @@
 }
 .stars{
     padding:.2rem 0rem;
+    color:var(--text-color)
 }

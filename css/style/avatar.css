@@ -3,22 +3,23 @@
     display:inline-block;
  }
 
- .lg-img{
+ .lg-img , .lg-text{
     width:8rem;
     height:8rem;
  }
-.md-img{
+.md-img , .md-text{
     width:6.5rem;
     height:6.5rem;
 }
-.sm-img{
+.sm-img , .sm-text{
     width:5rem;
     height:5rem;
 }
-.xs-img{
+.xs-img , .xs-text{
     width:3rem;
     height:3rem;
 }
+
 .border-round{
    border-radius: 50%;
 }
@@ -27,4 +28,10 @@
 }
 .img-border{
    border:3px solid var(--primary-color);
+}
+.text-border1{
+   border:3px solid var(--vibrant);
+}
+.text-border2{
+   border:3px solid var(--red);
 }

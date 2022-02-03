@@ -3,7 +3,7 @@ body{
 }
 .modal{
     position:absolute;
-    z-index:30;
+    z-index:6;
     display:none;
 }
 .modal-lg{

@@ -33,7 +33,7 @@ aside{
     overflow-y:auto;
 }
 aside::-webkit-scrollbar {
-    background-color: transparent;
+    background-color: var(--text-light);
 }
 aside > h1{
     position:relative;
@@ -65,12 +65,16 @@ footer{
     z-index: 99;
 }
 iframe{
-    width: 650px; 
+    width: 700px; 
     height: 200px; 
     border:0; 
     transform: scale(1); 
     overflow-x:hidden;
     margin-top:5rem;
+}
+.iframe-lg{
+    width: 957px;
+    height: 530px;
 }
 .section{
     margin:0 0 3rem 0;
@@ -112,7 +116,7 @@ iframe{
     aside{
         display:none
     }
-    iframe{
+    iframe , .iframe-lg{
         width:300px;
     }
     .prev-page-btn{

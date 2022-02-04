@@ -1,7 +1,7 @@
 #toast {
     visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
+    min-width: 15.625rem;
+    margin-left: -7.81rem;
     background-color: var(--text-color);
     color: var(--text-light);
     text-align: center;

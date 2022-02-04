@@ -7,7 +7,12 @@
 .btn-outline{
     border:1px solid var(--primary-color);
     background: transparent;
-    color:var(--primary-color)
+    color:var(--primary-color);
+}
+.btn-outline:hover{
+    background: var(--primary-color);
+    color:var(--text-color);
+    font-weight: 700;
 }
 .rm-border{
     border:none;
@@ -15,13 +20,9 @@
 .hover-primary:hover{
     color:var(--primary-color);
 }
-.hover-secondary:hover{
-    background: var(--primary-color);
-    color:var(--text-light)
-}
 .btn-transparent{
     background: none;
 }
 .float{
-    z-index:30
+    z-index:4;
 }

@@ -15,7 +15,7 @@
     height:1.8rem;
     top:5rem;
     left:6.3rem;
-    background-color: var(--vibrant);
+    background-color: var(--primary-color);
 }
 .sm-circle{
     width:1.3rem;
@@ -37,4 +37,10 @@
     height:1.8rem;
     top:-1rem;
     left:1.50rem;
+}
+.icon-top-badge-sm{
+    width:1.8rem;
+    height:1.8rem;
+    top:-1rem;
+    left:1.0rem;
 }

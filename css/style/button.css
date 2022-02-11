@@ -11,8 +11,8 @@
 }
 .btn-outline:hover{
     background: var(--primary-color);
-    color:var(--text-color);
-    font-weight: 700;
+    color:var(--text-light);
+    transform: scale(1.03,1.03);
 }
 .rm-border{
     border:none;

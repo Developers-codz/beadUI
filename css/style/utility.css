@@ -59,9 +59,6 @@
 .light-text{
     color:var(--text-light)
 }
-.text-vibrant{
-    color: var(--vibrant);
-}
 .text-danger{
     color:var(--red)
 }
@@ -80,9 +77,6 @@
 .bg-secondary{
     background-color: var(--secondary-color);
 }
-.bg-vibrant{
-    background-color: var(--vibrant);
-}
 .style-list-none{
     list-style: none;
 }
@@ -96,7 +90,7 @@
     box-shadow: 0px 2px 5px 0px var(--secondary-text-color);
 }
 .shadow-text{
-    text-shadow: -3px 0px 1px rgba(0, 0, 7, 0.76);
+    text-shadow: 3px 1px 1px rgba(0, 0, 7, 0.3);
 }
 .iframe-wrapper{
     text-align: center;

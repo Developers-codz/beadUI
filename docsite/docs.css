@@ -29,7 +29,7 @@ aside{
     top:30px;
     grid-area: aside;
     text-align: left;
-    border-right: 2px solid var(--vibrant);
+    border-right: 2px solid var(--primary-color);
     overflow-y:auto;
 }
 aside::-webkit-scrollbar {
@@ -37,7 +37,7 @@ aside::-webkit-scrollbar {
 }
 aside > h1{
     position:relative;
-    font-weight:bolder;
+    font-weight:500;
     font-size: 1.7rem;
     margin-bottom:20px;
 }
@@ -73,7 +73,7 @@ iframe{
     margin-top:5rem;
 }
 .iframe-lg{
-    width: 59.81rem;
+    width: 55rem;
     height: 33.125rem;
 }
 .section{
@@ -83,13 +83,13 @@ iframe{
 .prev-page-btn{
     position: absolute;
     left:17rem;
-    bottom:11rem;
+    bottom:12rem;
 }
 
 .next-page-btn{
     position: absolute;
     right:20px;
-    bottom:11rem;
+    bottom:12rem;
 }
 @media only screen and (max-width:768px){
    

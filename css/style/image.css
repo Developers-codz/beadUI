@@ -1,8 +1,9 @@
-img{
-    width:200px;
-    height:200px
+img {
+  width: 200px;
+  height: 200px;
 }
-.responsive-img{
-    width:100%;
-    height: auto;
+.responsive-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

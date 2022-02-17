@@ -1,28 +1,69 @@
-.btn{
-    border-radius: 10px;
+.btn {
+  border-radius: 10px;
+  cursor: pointer;
 }
-.reset{
-    cursor:pointer;
+.btn-primary {
+  color: var(--text-light);
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.5rem 1rem;
 }
-.btn-outline{
-    border:1px solid var(--primary-color);
-    background: transparent;
-    color:var(--primary-color);
+.btn-secondary {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: var(--text-light);
 }
-.btn-outline:hover{
-    background: var(--primary-color);
-    color:var(--text-light);
-    transform: scale(1.03,1.03);
+
+.btn-outline {
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
 }
-.rm-border{
-    border:none;
+.btn-outline:hover {
+  background: var(--primary-color);
+  color: var(--text-light);
+  transform: scale(1.03, 1.03);
 }
-.hover-primary:hover{
-    color:var(--primary-color);
+.btn-float {
+  background: transparent;
+  border: none;
+  font-size: 1.7rem;
+  color: var(--primary-color);
+  z-index: 4;
 }
-.btn-transparent{
-    background: none;
+.btn-float-round {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: var(--text-light);
+  z-index: 4;
+  border: none;
+  cursor: pointer;
 }
-.float{
-    z-index:4;
+.btn-link {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.rm-border {
+  border: none;
+}
+.btn-transparent {
+  background-color: transparent;
+}
+.btn-link:hover {
+  color: var(--primary-color);
+}
+
+.float {
+  z-index: 4;
 }

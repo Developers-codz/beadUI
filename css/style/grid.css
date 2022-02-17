@@ -1,7 +1,6 @@
 .grid-2-cols-layout {
   width: inherit;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "left right";
 }
 .left-pane {

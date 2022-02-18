@@ -2,23 +2,23 @@
   border-radius: 50%;
   display: inline-block;
 }
-.lg-img,
-.lg-text {
+.img-lg,
+.text-lg {
   width: 8rem;
   height: 8rem;
 }
-.md-img,
-.md-text {
+.img-md,
+.text-md {
   width: 6.5rem;
   height: 6.5rem;
 }
-.sm-img,
-.sm-text {
+.img-sm,
+.text-sm {
   width: 5rem;
   height: 5rem;
 }
-.xs-img,
-.xs-text {
+.img-xs,
+.text-xs {
   width: 3rem;
   height: 3rem;
 }
@@ -31,9 +31,6 @@
 }
 .img-border {
   border: 3px solid var(--primary-color);
-}
-.text-border1 {
-  border: 3px solid var(--vibrant);
 }
 .text-border2 {
   border: 3px solid var(--red);

@@ -1,6 +1,7 @@
 .grid-2-cols-layout {
   width: inherit;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "left right";
 }
 .left-pane {
@@ -10,9 +11,9 @@
   grid-area: right;
 }
 .grid-3-cols-layout {
-  display: flex;
-  grid-template-areas: left middle right;
+  display: grid;
   grid-template-columns: repeat(3, fr);
+  grid-template-areas: "left middle right";
   grid-gap: 25px;
 }
 .left-side {
@@ -23,4 +24,17 @@
 }
 .middle {
   grid-area: middle;
+}
+@media only screen and (max-width: 768px) {
+  .grid-2-cols-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "left" "right";
+  }
+  .grid-3-cols-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "left" "middle" "right";
+  }
+  .grid-wrapper {
+    width: 18.75rem;
+  }
 }

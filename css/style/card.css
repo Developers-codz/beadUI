@@ -4,17 +4,17 @@
   border-radius: 10px;
   display: inline-block;
 }
-.simple-card {
+.card-simple {
   max-width: 18.75rem;
   min-height: 17.5rem;
 }
-.text-only-card {
+.card-text-only {
   max-width: 18.75rem;
   min-height: 9.8rem;
 }
-.horizontal-card {
-  max-width: 16rem;
-  min-height: 11.25;
+.card-horizontal {
+  min-width: 16.75rem;
+  min-height: 11.25rem;
 }
 .card-img {
   border-top-left-radius: 10px;
@@ -48,8 +48,8 @@
   font-weight: 8000;
 }
 .card-img-overlay {
-  width: 300px;
-  height: 200px;
+  width: 18.75rem;
+  height: 12.5rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -80,7 +80,7 @@
 }
 
 .horizontal-card-img {
-  min-width: 6.25rem;
+  max-width: 6.25rem;
   height: 6.25rem;
   margin: 10px 0 0 10px;
 }

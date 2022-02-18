@@ -1,4 +1,4 @@
-#toast {
+.toast {
   visibility: hidden;
   min-width: 15.625rem;
   margin-left: -7.81rem;
@@ -14,7 +14,7 @@
   font-size: 17px;
 }
 
-#toast.show {
+.toast.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;

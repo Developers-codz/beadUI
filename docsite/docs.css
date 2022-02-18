@@ -17,12 +17,13 @@ header {
   background-color: var(--bg-color);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 .last-col > ul > li {
   padding: 0rem 0.6rem;
 }
 aside {
-  max-height: 80vh;
+  max-height: 75vh;
   position: sticky;
   top: 30px;
   grid-area: aside;

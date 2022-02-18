@@ -4,15 +4,15 @@
   border-radius: 10px;
   display: inline-block;
 }
-.simple-card {
+.card-simple {
   max-width: 18.75rem;
   min-height: 17.5rem;
 }
-.text-only-card {
+.card-text-only {
   max-width: 18.75rem;
   min-height: 9.8rem;
 }
-.horizontal-card {
+.card-horizontal {
   min-width: 16.75rem;
   min-height: 11.25rem;
 }

@@ -79,13 +79,13 @@ iframe {
 .prev-page-btn {
   position: absolute;
   left: 17rem;
-  bottom: 12rem;
+  bottom: 14rem;
 }
 
 .next-page-btn {
   position: absolute;
   right: 20px;
-  bottom: 12rem;
+  bottom: 14rem;
 }
 @media only screen and (max-width: 768px) {
   .body-wrapper {

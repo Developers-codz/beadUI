@@ -12,6 +12,10 @@ BeadsUI is a free, easy to use open source, highly customizable component librar
 
 </div>
 
+
+
+
+
 ## About
 
 This repository is all about component library code and documentation code of BeadsUI.
@@ -58,7 +62,7 @@ Copy the below link to get started with BeadsUI component. All you need to do is
 
 ## Live Demo
 
-![BeadsUI Live Demo]()
+https://user-images.githubusercontent.com/50793296/154890436-bd29c034-30c8-43ed-8691-4783b28e374a.mp4
 
 
 

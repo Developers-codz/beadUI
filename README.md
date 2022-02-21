@@ -65,4 +65,10 @@ Copy the below link to get started with BeadsUI component. All you need to do is
 https://user-images.githubusercontent.com/50793296/154890436-bd29c034-30c8-43ed-8691-4783b28e374a.mp4
 
 
+## Connect
+
+<a href="https://twitter.com/Kajal3310"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/kajal-kumari-52bab41aa/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+
+
 
